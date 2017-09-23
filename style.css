@@ -1,0 +1,19 @@
+.line {
+  display: flex;
+  justify-content: flex-start;
+  border: solid silver 1px;
+  width: 150px;
+  height: 50px;
+}
+.cube {
+  justify-content: flex-start;
+  width: 50px;
+  height: 50px;
+  border: solid silver 1px;
+}
+.x {
+  background: black;
+}
+.o {
+  background: white;
+}
