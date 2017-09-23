@@ -19,6 +19,6 @@ function clickers(event) {
       pushingO.push(swipe.target.id);
     }
   };
-
+// hello
   console.log(swipe.target.id);
 }
