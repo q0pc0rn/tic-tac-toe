@@ -3,7 +3,11 @@ var o = 0;
 var winnerX = 0;
 var winnerO = 0;
 var winner = null;
+<<<<<<< HEAD
 var top, left, right, bot, centr;
+=======
+
+>>>>>>> b3428060a5891970c6eb9913582d9fbf4ffbde05
 function clickers(event) {
   let swipe = {
     target: event.target || event.srcElement
@@ -19,13 +23,19 @@ function clickers(event) {
       winnerO += +swipe.target.value;
     }
   };
+<<<<<<< HEAD
   (o >= 3) ? ggwp() : null;
+=======
+  ((x === 3) || (o === 3)) ? ggwp() : null;
+  console.log( winnerX, winnerO, x, o);
+>>>>>>> b3428060a5891970c6eb9913582d9fbf4ffbde05
   console.log(winner);
 }
 
 function ggwp() {
   winner = (winnerO === 6) ? 'o winner' : (winnerX === 6) ? 'x winner' : null;
   (winner != null) ? alert('gg wp '+ winner) : null;
+<<<<<<< HEAD
 }
 
 
@@ -40,4 +50,6 @@ function randomName() {
 
 function qweasd(event) {
   randomName(delee);
+=======
+>>>>>>> b3428060a5891970c6eb9913582d9fbf4ffbde05
 }
