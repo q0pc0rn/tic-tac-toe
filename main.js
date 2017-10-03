@@ -5,7 +5,6 @@ var winnerO = 0;
 var winner = null;
 var top, left, right, bot, centr;
 
-
 function clickers(event) {
   let swipe = {
     target: event.target || event.srcElement
@@ -23,4 +22,11 @@ function clickers(event) {
   };
   console.log( winnerX, winnerO, x, o);
   console.log(winner);
+}
+  console.log(winner);
+}
+
+function ggwp() {
+  winner = (winnerO === 6) ? 'o winner' : (winnerX === 6) ? 'x winner' : null;
+  (winner != null) ? alert('gg wp '+ winner) : null;
 }
